@@ -36,7 +36,7 @@ xgboost
 lightgbm; sys_platform != 'darwin'
 mlflow; python_version < '3.12'  # TODO: requires pyarrow
 # kfp<2.0.0  # TODO: put back when we support kfp>=2.0.0
-urllib3<2
+urllib3<3
 docker
 
 responses
@@ -44,7 +44,7 @@ respx
 prometheus_client
 google-cloud-aiplatform
 
-aiohttp==3.9.0b0; python_version >= '3.12'
+aiohttp==3.9.4; python_version >= '3.12'
 
 .[async]
 .[perf]
